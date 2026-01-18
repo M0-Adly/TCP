@@ -1,0 +1,11 @@
+body { font-family: Inter, Arial, sans-serif; background:#f3f7fb; color:#1b2430; margin:0; }
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 24px;background:linear-gradient(180deg,#fff,#eef4fb);border-bottom:1px solid #e0e7ef}
+.logo{font-weight:700}
+.content{padding:24px}
+.panel{background:#fff;padding:20px;border-radius:8px;box-shadow:0 6px 20px rgba(12,35,80,0.06)}
+.row{margin-top:12px}
+.controls{display:flex;gap:12px;align-items:center}
+.primary{background:#2b6cff;color:#fff;border:none;padding:8px 12px;border-radius:6px}
+.stats{display:flex;gap:16px;margin-top:16px}
+.stat{background:#f7fbff;padding:12px;border-radius:8px;text-align:center}
+.result{padding:12px;background:#fafafa;border-radius:6px}

@@ -1,0 +1,1 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap";html,body,#root{height:100%}body{font-family:Inter,system-ui,sans-serif;background:linear-gradient(180deg,#0b1223,#071021);color:#e6eef8}.container{max-width:1100px;margin:0 auto;padding:24px}.hero{background:linear-gradient(90deg,#8b5cf61f,#3b82f60f);border-radius:12px;padding:24px}

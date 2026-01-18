@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+html,body,#root{height:100%}
+body{font-family:Inter, system-ui, sans-serif;background: linear-gradient(180deg,#0b1223 0%, #071021 100%); color:#e6eef8}
+
+/* container */
+.container{max-width:1100px;margin:0 auto;padding:24px}
+
+/* hero */
+.hero{background:linear-gradient(90deg, rgba(139,92,246,0.12), rgba(59,130,246,0.06)); border-radius:12px; padding:24px}
