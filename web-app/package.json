@@ -1,0 +1,16 @@
+{
+    "name": "network-tcp-web-app",
+    "version": "1.0.0",
+    "description": "Root package to build both frontend and backend for deployment",
+    "scripts": {
+        "postinstall": "npm install --prefix backend && npm install --prefix frontend",
+        "build": "npm run build --prefix frontend && npm run build --prefix backend && mkdir -p backend/public && cp -r frontend/dist/* backend/public/",
+        "start": "npm start --prefix backend"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "concurrently": "^8.0.0"
+    }
+}
