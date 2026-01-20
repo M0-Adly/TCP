@@ -6,7 +6,7 @@ import mongoose from 'mongoose'
 import { MongoMemoryServer } from 'mongodb-memory-server'
 import User from './models/User'
 import Translation from './models/Translation'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 dotenv.config()
 const app = express()
